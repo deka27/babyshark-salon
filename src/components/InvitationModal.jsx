@@ -1,7 +1,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 
 import { FaCircleCheck } from "react-icons/fa6";
-import { AiOutlineClose } from "react-icons/ai";
+import { FaWindowClose } from "react-icons/ai";
 import { GiSharkJaws } from "react-icons/gi";
 
 export const InvitationModal = ({ setIsOpen }) => (
@@ -80,7 +80,7 @@ export const InvitationModal = ({ setIsOpen }) => (
               className="fixed top-6 right-6 z-50 w-5 h-5 cursor-pointer"
               onClick={() => setIsOpen(false)}
             >
-              <AiOutlineClose />
+              <FaWindowClose />
             </div>
           </div>
         </div>
