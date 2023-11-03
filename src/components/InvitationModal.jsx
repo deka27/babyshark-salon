@@ -1,7 +1,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 
 import { FaCircleCheck } from "react-icons/fa6";
-import { FaWindowClose } from "react-icons/ai";
+import { FaWindowClose } from "react-icons/fa";
 import { GiSharkJaws } from "react-icons/gi";
 
 export const InvitationModal = ({ setIsOpen }) => (
