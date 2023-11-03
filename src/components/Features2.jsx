@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-import { FaCircleCheck } from "react-icons/fa6";
+import { BsFillCheckCircleFill } from "react-icons/bs";
 
 export const Features2 = () => (
   <section className="w-full bg-customDarkBg2 mt-12 sm:mt-20 mb-10 lg:my-20 pt-4">
@@ -43,15 +43,15 @@ export const Features2 = () => (
             </p>
             <ul className="mb-6 text-white">
               <li className="mb-4 flex gap-2 items-center">
-                <FaCircleCheck />
+                <BsFillCheckCircleFill />
                 <span>Lorem ipsum</span>
               </li>
               <li className="mb-4 flex gap-2 items-center">
-                <FaCircleCheck />
+                <BsFillCheckCircleFill />
                 <span>Lorem ipsum</span>
               </li>
               <li className="mb-4 flex gap-2 items-center">
-                <FaCircleCheck />
+                <BsFillCheckCircleFill />
                 <span>Lorem ipsum</span>
               </li>
             </ul>

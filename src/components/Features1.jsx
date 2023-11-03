@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 // import feature2 from "../assets/images/fp2.jpg";
 // import feature3 from "../assets/images/fp3.jpg";
 // import feature4 from "../assets/images/fp4.jpg";
-import { FaCircleCheck } from "react-icons/fa6";
+import { BsFillCheckCircleFill } from "react-icons/bs";
 
 export const Features1 = () => {
   return (
@@ -31,15 +31,15 @@ export const Features1 = () => {
                 </p>
                 <ul className="mb-6 text-white">
                   <li className="mb-4 flex gap-2 items-center">
-                    <FaCircleCheck />
+                    <BsFillCheckCircleFill />
                     <span>Lorem ipsum</span>
                   </li>
                   <li className="mb-4 flex gap-2 items-center">
-                    <FaCircleCheck />
+                    <BsFillCheckCircleFill />
                     <span>Lorem ipsum</span>
                   </li>
                   <li className="mb-4 flex gap-2 items-center">
-                    <FaCircleCheck />
+                    <BsFillCheckCircleFill />
                     <span>Lorem ipsum</span>
                   </li>
                 </ul>

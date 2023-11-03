@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 
-import { FaCircleCheck } from "react-icons/fa6";
+import { BsFillCheckCircleFill } from "react-icons/bs";
 import { FaWindowClose } from "react-icons/fa";
 import { GiSharkJaws } from "react-icons/gi";
 
@@ -31,15 +31,15 @@ export const InvitationModal = ({ setIsOpen }) => (
 
               <ul className="mb-6 text-white mt-12">
                 <li className="mb-4 flex gap-2 items-center">
-                  <FaCircleCheck />
+                  <BsFillCheckCircleFill />
                   <span>Vestibulum viverra</span>
                 </li>
                 <li className="mb-4 flex gap-2 items-center">
-                  <FaCircleCheck />
+                  <BsFillCheckCircleFill />
                   <span>Morbi mollis metus pretium</span>
                 </li>
                 <li className="mb-4 flex gap-2 items-center">
-                  <FaCircleCheck />
+                  <BsFillCheckCircleFill />
                   <span>Etiam lectus nunc, commodo</span>
                 </li>
               </ul>
